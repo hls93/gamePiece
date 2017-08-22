@@ -1,11 +1,11 @@
 package com.theironyard.installparty;
 
 public class GamePiece {
-    private int positionX;
-    private int positionY;
-    private boolean frozen;
-    private String name;
-    private String color;
+     int positionX;
+     int positionY;
+     boolean frozen;
+     String name;
+     String color;
 
     public GamePiece(){
         this.positionX = 0;
@@ -50,8 +50,6 @@ public class GamePiece {
         } else {
                 System.out.println("You can't move you are frozen! Loser!");
             }
-
-
     }
 
     public void freeze(){
